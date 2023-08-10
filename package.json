@@ -1,9 +1,19 @@
 {
-  "dependencies": {
-    "nodemon": "^3.0.1"
-  },
   "scripts": {
-    "start": "node index.js",
-    "start:dev": "nodemon index.js"
+    "start": "node index",
+    "start:dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "goit-node-hw-01-contacts",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.0"
   }
 }
